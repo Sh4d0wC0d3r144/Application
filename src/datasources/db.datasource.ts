@@ -5,11 +5,11 @@ const config = {
   name: 'db',
   connector: 'postgresql',
   url: 'postgresql://db_2kiq_user:9ndz9zikyV1Ba0YTB01OKXFC8x3pegGc@dpg-cs1sf2q3esus739fe220-a.frankfurt-postgres.render.com:5432/db_2kiq?ssl=true',
-  host: 'dpg-cs1sf2q3esus739fe220-a.frankfurt-postgres.render.com',
-  port: 5432,
-  user: 'db_2kiq_user',
-  password: '9ndz9zikyV1Ba0YTB01OKXFC8x3pegGc',
-  database: 'db_2kiq'
+  host: '',
+  port: '',
+  user: '',
+  password: '',
+  database: ''
 };
 
 // Observe application's life cycle to disconnect the datasource when
