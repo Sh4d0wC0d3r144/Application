@@ -4,8 +4,8 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'db',
   connector: 'postgresql',
-  // url: 'dpg-cs1sf2q3esus739fe220-a.frankfurt-postgres.render.com',
-  host: 'postgresql://db_2kiq_user:9ndz9zikyV1Ba0YTB01OKXFC8x3pegGc@dpg-cs1sf2q3esus739fe220-a.frankfurt-postgres.render.com:5433/db_2kiq?ssl=true',
+  url: 'postgresql://db_2kiq_user:9ndz9zikyV1Ba0YTB01OKXFC8x3pegGc@dpg-cs1sf2q3esus739fe220-a.frankfurt-postgres.render.com:5433/db_2kiq?ssl=true',
+  host: 'dpg-cs1sf2q3esus739fe220-a.frankfurt-postgres.render.com',
   port: 5432,
   user: 'db_2kiq_user',
   password: '9ndz9zikyV1Ba0YTB01OKXFC8x3pegGc',
