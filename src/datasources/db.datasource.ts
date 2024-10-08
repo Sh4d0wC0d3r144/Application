@@ -5,7 +5,7 @@ const config = {
   name: 'db',
   connector: 'postgresql',
   // url: 'dpg-cs1sf2q3esus739fe220-a.frankfurt-postgres.render.com',
-  host: 'dpg-cs1sf2q3esus739fe220-a.frankfurt-postgres.render.com:5432/test?ssl=true',
+  host: 'dpg-cs1sf2q3esus739fe220-a.frankfurt-postgres.render.com:5432/?ssl=true',
   port: 5432,
   user: 'db_2kiq_user',
   password: '9ndz9zikyV1Ba0YTB01OKXFC8x3pegGc',
